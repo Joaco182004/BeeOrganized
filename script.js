@@ -6,8 +6,6 @@ const btn_menu=document.getElementById("btn-menu")
 const slider=document.getElementById("content-slider")
 var appear=false;
 
-
-
 btn_menu.addEventListener("click",()=>{
 
     if(appear==false){
