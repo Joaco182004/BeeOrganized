@@ -726,6 +726,10 @@ h1{
        }
 }
 @media (min-width:1850px){
+    .labeling li:before{
+        top:25px;
+        
+    }
     .ios button,.android button{
         
         height: 8%;
