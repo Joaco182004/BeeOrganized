@@ -13,9 +13,12 @@ const equis_ios=document.getElementById("equis-ios")
 const btn_prot_ios=document.getElementById("btn-prot-ios")
 const btn_prot_android=document.getElementById("btn-prot-android")
 const filtro=document.getElementById("filtro")
+const btn_know=document.getElementById("btn-know")
 
 var appear=false;
-
+btn_know.addEventListener("click",()=>{
+    window.open("https://www.youtube.com/watch?v=IR6zqpp-Qig")
+})
 btn_prot_ios.addEventListener("click",()=>{
     window.open("https://www.figma.com/proto/d6WAqznJfusBZr0nt5x0iL/Prototipo(IOS)?scaling=scale-down&page-id=0%3A1&starting-point-node-id=1%3A344&node-id=1%3A344")
 })
