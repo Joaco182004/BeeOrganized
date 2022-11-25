@@ -1,7 +1,6 @@
 @font-face {
     font-family: SofiaPro;
     src: url('../fonts/SofiaProLight.ttf');
-}
 @font-face {
     font-family: Lustria;
     src: url('../fonts/Lustria-Regular.ttf');
@@ -1073,7 +1072,7 @@ h1{
 @media (max-width:1050px){
     .video{
      width:85vw;
-     height:45vh;
+     height:60vh;
     }
     .nav-bar-container{
         grid-template-columns: 0.5fr 0.5fr;
