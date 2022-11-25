@@ -1071,7 +1071,10 @@ h1{
 }
 
 @media (max-width:1050px){
-    
+    .video{
+     width:85vw;
+     height:30vh;
+    }
     .nav-bar-container{
         grid-template-columns: 0.5fr 0.5fr;
     }
